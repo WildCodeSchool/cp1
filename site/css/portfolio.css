@@ -98,7 +98,18 @@ p {
   .skills{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 699px){
