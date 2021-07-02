@@ -16,7 +16,11 @@ Au final la liste devra ressembler à :
 */
 
 function theaterSieges() {
-  // Your code here !
+  for (let i = 0; i<theaterSieges.length; i ++){
+    for (let j = 0; j<theaterSieges[i].length; j ++){
+      // console.log (theaterSieges[i][j])
+    }
+  }
 }
 
 console.log(theaterSieges());
