@@ -95,7 +95,32 @@ p {
     width: 100%;
     flex-direction: column;
   }
+  .skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 @media screen and (max-width: 699px){
-  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+  }
+  .bannerPortfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .desktop{
+    display: none;
+  }
+  .skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
 }
