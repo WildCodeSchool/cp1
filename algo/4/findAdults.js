@@ -26,7 +26,10 @@ const persons = [
 ];
 
 function findAdults(arr) {
-  // Your code here !
+let newTb = persons.filter{
+  return (newTb.age >= 18) || (newTb.sex == "female")
 }
+console.log(findAdults)
 
+}
 module.exports = findAdults;
